@@ -1,5 +1,5 @@
 {
-  "name": "number-guessing-game",
+  "name": "abd-number-guessing-game",
   "version": "2.0.0",
   "description": "This is cli based number guessing game using typescript with inquirer",
   "main": "index.js",
