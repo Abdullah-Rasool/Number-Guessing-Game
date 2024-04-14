@@ -6,13 +6,12 @@ import inquirer from "inquirer";
 const random_number = Math.floor((Math.random() * 10) + 1);
 const answers = await inquirer.prompt([
     {
-        name: "userGuessedNumber",
-        type: "number",
-        message: "please guess a number betwwen 1 - 10",
+        "name": "userGuessedNumber",
+        "type": "number",
+        "message": "please guess a number betwwen 1 - 10",
     },
 ]);
-console.log(answers);
-if (answers.userGuessedNumber === random_number) {
+if (answers.userGuessedNumber == random_number) {
     console.log("congratulations! you guessed right number.");
 }
 else {
